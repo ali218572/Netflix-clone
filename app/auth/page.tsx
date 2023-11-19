@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useCallback, useState } from "react";
-import Input from "../components/Input";
+import Input from "../../components/Input";
 
 const Auth = () => {
   const [email, setEmail] = useState("");
